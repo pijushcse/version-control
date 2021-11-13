@@ -12,6 +12,6 @@ package com.lca.phoenix.version.control;
 
 public class Application {
     public static void main(String[] args) {
-
+        System.out.println(Application.class.getPackage().getImplementationVersion());
     }
 }
