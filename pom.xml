@@ -25,6 +25,19 @@
         <tag>1.0.0</tag>
     </scm>
 
+    <url>http://localhost:8084/nexus/content/groups/public/</url>
+
+    <distributionManagement>
+        <repository>
+            <id>repository-id</id>
+            <url>http://localhost:8084/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-id</id>
+            <url>http://localhost:8084/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
