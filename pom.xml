@@ -4,7 +4,7 @@
 
     <groupId>com.lca.phoenix.version.control</groupId>
     <artifactId>version-control-demo</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
 
